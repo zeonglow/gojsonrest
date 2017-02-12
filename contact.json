@@ -1,0 +1,14 @@
+{"data":{"type":"contact","id":"1",
+	 "attributes":{"name":"Chris Huang-Leaver"}
+	},
+  "relationships":{"address_email": {"data":{"type": "address_email", "id": "1"}},
+			  "address_physical": {"data":{"type": "address_physical", "id": "1"}},	
+		   "telephone": {"data":{"type": "telephone", "id": "1"}}},
+ "included":[
+     {"type":"address_email", "id":"1",
+      "attributes":{"address_name":"junk","email":"redacted@example.com"}},
+     {"type":"telephone","id":"1",
+      "attributes":{"telephone_name":"mobile","telephone_num":"0123 456 789"}},
+    {"type":"address_physical","id":"1",
+		      "attributes": {"address_name":"home","line1":"359 Somewhere","line2":"a","line3":"b","city":"Melbourne","postcode":"3000","country":"Australia"}}]
+}
